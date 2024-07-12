@@ -24,3 +24,50 @@ To run this project locally, follow these steps:
    ```bash
    git clone <repository-url>
    cd multi-step-react-form
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+
+3. **Run the application**:
+
+   ```bash
+   npm start
+   
+Open http://localhost:3000 to view it in the browser.
+
+## Folder Structure
+
+```bash
+multi-step-react-form/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Step1.js
+│   │   ├── Step2.js
+│   │   ├── Step3.js
+│   │   └── MultiStepForm.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── MultiStepForm.css
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
+
+## Usage
+
+- Start filling out the form by entering your personal information in Step 1.
+- Proceed to Step 2 to input your address details.
+- Finally, review the entered data in Step 3 and submit the form.
+- Form data will be validated at each step, and errors will be displayed if required fields are empty or data formats are incorrect.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues and pull requests for any improvements or bug fixes.
+
